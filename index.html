@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <!-- <img src="./images/Pranav_Id_card_1.jpg" alt=""> -->
+            <h1>Portfolio</h1>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li style="--i: 1"><a href="#Home">Home</a></li>
+                <li style="--i: 2"><a href="#about">About</a></li>
+                <li style="--i: 3"><a href="#skills">Skills</a></li>
+                <li style="--i: 4"><a href="#projects">Projects</a></li>
+                <li style="--i: 5"><a href="#contact">Contact Me</a></li>
+            </ul>
+            <div class="dark-light-toggle" id="dark-light-toggle-btn"><i class="fa-solid fa-sun"></i></div>
+        </nav>     
+    </header>
+
+    <section class="Home show-animate" id="Home">
+        <div class="content">
+            <div class="content-social-icons">
+                <a href="www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                <a href="www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                <a href="www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <div class="content-info">
+                <h1>Hello!</h1>
+                <h2><span>I'm</span> Pranav Nagothanekar</h2>
+                <p>I'm a developer and designer with a passion for website design. I always try my best to provide the best experience.</p>
+                
+                <a title="Redirects to about section" class="" href="#about"><i class="fa-solid fa-user"></i> About Me</a>
+            </div>
+
+        </div>
+        <div class="img-box">
+            <img src="./images/Pranav_User_img.jpg" alt="">
+        </div>
+    </section>
+    
+    
+    <!-- This is About Section -->
+    <section class="about" id="about">
+        <h2 class="heading">About</h2>
+        <div class="about_container">
+            <div class="about_image">
+                <img src="./images/Pranav_img_about.jpg" alt="">
+            </div>
+
+            <div class="about_content">
+                <h1>I,m Pranav</h1>
+                <p>👋 Hi, I’m an intermediate software developer passionate about crafting elegant solutions. With a solid foundation in HTML, CSS, and JavaScript, I also dabble in Python, Java, and C. My goal is to build efficient programs that make a positive impact! 🚀</p>
+                <a class="cv-download" download href="./Pranav Resume.pdf">Download Resume <i class="fa-solid fa-download"></i></a>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- This is Skills Section -->
+    <section class="skills" id="skills">
+        <h1 class="heading">Skills</h1>
+        <div class="skills_container">
+            <div class="technical_container">
+                <h1>Technical Skills</h1>
+                <div class="aligncontainer">
+                    <div class="languages">
+                        <h3>Languages</h3>
+                        <ul>
+                            <li><i class="fa-regular fa-circle-check"></i> C</li>
+                            <li><i class="fa-regular fa-circle-check"></i> Java</li>
+                            <li><i class="fa-regular fa-circle-check"></i> Python</li>
+                        </ul>
+                    </div>
+                    <div class="fullstack">
+                        <div class="frontend">
+                            <h3>Frontend</h3>
+                            <ul>
+                                <li><i class="fa-regular fa-circle-check"></i> HTML</li>
+                                <li><i class="fa-regular fa-circle-check"></i> CSS</li>
+                                <li><i class="fa-regular fa-circle-check"></i> Javascript</li>
+                                <li><i class="fa-regular fa-circle-check"></i> React</li>
+                                <li><i class="fa-regular fa-circle-check"></i> Django</li>
+                                <li><i class="fa-regular fa-circle-check"></i> Bootstrap</li>
+                            </ul>
+                        </div>
+                        <div class="backend">
+                            <h3>Backend</h3>
+                            <ul>
+                                <li><i class="fa-regular fa-circle-check"></i> MySQL</li>
+                                <li><i class="fa-regular fa-circle-check"></i> PHP</li>
+                                <li><i class="fa-regular fa-circle-check"></i> Node JS</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="professional_container">
+                <h1>Professional skills</h1>
+                <div class="progress">
+                    <div class="progressbar">
+                        <div class="circular-progress box1">
+                            <span class="progress-value">80%</span>
+                        </div>
+                        <span class="text">Communication</span>
+                    </div>
+                    <div class="progressbar">
+                        <div class="circular-progress box2">
+                            <span class="progress-value">95%</span>
+                        </div>
+                        <span class="text">Teamwork</span>
+                    </div>
+                    <div class="progressbar">
+                        <div class="circular-progress box3">
+                            <span class="progress-value">90%</span>
+                        </div>
+                    <span class="text">Project Management</span>
+    
+                    </div>
+                    <div class="progressbar">
+                        <div class="circular-progress box4">
+                            <span class="progress-value">80%</span>
+                        </div>
+                        <span class="text">Creativity</span>
+                        
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section class="projects" id="projects">
+        <h1 class="section_title">Projects</h1>
+        <div class="projects_container">
+                <div class="box">
+                    <img src="./images/Project1.jpg" alt="">
+                    <div class="project_data">
+                        <h3 class="project_title">Education Platform for Java(Frontend)</h3>
+                        <p class="project_desc"> This is a short description. Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ex pariatur alias dicta ducimus molliti</p> 
+                        <a title="Redirects to github link of project" href="#" class="githubredirect">Github Link <i class="fa-solid fa-link"></i></a>                   
+                    </div>
+                </div>      
+                <div class="box">
+                    <img src="./images/Project2.jpg" alt="">
+                    <div class="project_data">
+                        <h3 class="project_title">BookStore Website</h3>
+                        <p class="project_desc">This is a short description. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla voluptate vel error, sit temporibus dolore distinctio </p> 
+                        <a title="Redirects to github link of project" href="#" class="githubredirect">Github Link <i class="fa-solid fa-link"></i></a>                   
+                    </div>
+                </div>      
+                <div class="box">
+                    <img src="./images/Project3.jpg" alt="">
+                    <div class="project_data">
+                        <h3 class="project_title">Book Recommendation System</h3>
+                        <p class="project_desc"> This is a short description. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit accusantium quasi doloribus inventore.</p> 
+                        <a title="Redirects to github link of project" href="#" class="githubredirect">Github Link <i class="fa-solid fa-link"></i></a>                   
+                    </div>
+                </div>      
+                <div class="box">
+                    <img src="./images/Project4.png" alt="">
+                    <div class="project_data">
+                        <h3 class="project_title">Project Title</h3>
+                        <p class="project_desc"> This is a short description. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates voluptatem quis beatae earum</p> 
+                        <a title="Redirects to github link of project" href="#" class="githubredirect">Github Link <i class="fa-solid fa-link"></i></a>                   
+                    </div>
+                </div>
+        </div>
+
+    </section>
+
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h1>Contact Me</h1>
+            <p><i class="fa-regular fa-envelope"></i> pranav592003@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i> +91 1234567890</p>
+            <div class="social_icons">
+                <a href="www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                <a href="www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                <a href="www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+
+        </div>
+        <div class="contact-form">
+            <form action="">
+                <input type="text" placeholder="Name">
+                <input type="tel" placeholder="Phone">
+                <input type="email" placeholder="Email">
+                <textarea rows="7" placeholder="Your Message"></textarea>
+                <input type="submit" value="Submit" class="submit-btn">
+            </form>
+        
+        </div>
+    </section>
+
+    <footer>
+        <h1>Pranav</h1>
+        <h1>&copy; 2024 Copyright All Rights Reserved</h1>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
